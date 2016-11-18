@@ -1,0 +1,39 @@
+{
+  "name": "clientkit-livereload",
+  "version": "0.0.1",
+  "description": "ClientKit task to trigger livereload",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/clientkit-livereload.git"
+  },
+  "keywords": [
+    "clientkit",
+    "livereload"
+  ],
+  "author": "First+Third <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/clientkit-livereload/issues"
+  },
+  "homepage": "https://github.com/firstandthird/clientkit-livereload#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "clientkit-task": "0.0.4",
+    "lodash.debounce": "^4.0.8",
+    "tiny-lr": "1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-firstandthird": "3.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  }
+}
