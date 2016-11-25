@@ -26,10 +26,11 @@ class LiveReloadTask extends ClientKitTask {
   }
 
   changed() {
+    const delay = this.options.delay || 500;
     debounce(() => {
       this.log('Triggering LiveReload change');
       this.server.changed({ body: { files: ['*'] } });
-    }, this.options.delay || 500);
+    }, delay)();
   }
 }
 
