@@ -1,6 +1,6 @@
 {
   "name": "clientkit-livereload",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ClientKit task to trigger livereload",
   "main": "index.js",
   "scripts": {
