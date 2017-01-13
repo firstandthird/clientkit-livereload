@@ -1,28 +1,28 @@
 {
-  "name": "clientkit-livereload",
+  "name": "runkit-livereload",
   "version": "0.0.4",
-  "description": "ClientKit task to trigger livereload",
+  "description": "runkit task to trigger livereload",
   "main": "index.js",
   "scripts": {
     "test": "tape test/index.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firstandthird/clientkit-livereload.git"
+    "url": "git+https://github.com/firstandthird/runkit-livereload.git"
   },
   "keywords": [
-    "clientkit",
+    "runkit",
     "livereload"
   ],
   "author": "First+Third <code@firstandthird.com> (http://firstandthird.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/firstandthird/clientkit-livereload/issues"
+    "url": "https://github.com/firstandthird/runkit-livereload/issues"
   },
-  "homepage": "https://github.com/firstandthird/clientkit-livereload#readme",
+  "homepage": "https://github.com/firstandthird/runkit-livereload#readme",
   "dependencies": {
     "async": "^2.1.2",
-    "clientkit-task": "0.0.7",
+    "runkit-task": "0.0.10",
     "lodash.debounce": "^4.0.8",
     "tiny-lr": "1.0.3"
   },
