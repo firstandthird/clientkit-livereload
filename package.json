@@ -1,29 +1,29 @@
 {
-  "name": "runkit-livereload",
+  "name": "taskkit-livereload",
   "version": "0.0.5",
-  "description": "runkit task to trigger livereload",
+  "description": "taskkit task to trigger livereload",
   "main": "index.js",
   "scripts": {
     "test": "tape test/index.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firstandthird/runkit-livereload.git"
+    "url": "git+https://github.com/firstandthird/taskkit-livereload.git"
   },
   "keywords": [
-    "runkit",
+    "taskkit",
     "livereload"
   ],
   "author": "First+Third <code@firstandthird.com> (http://firstandthird.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/firstandthird/runkit-livereload/issues"
+    "url": "https://github.com/firstandthird/taskkit-livereload/issues"
   },
-  "homepage": "https://github.com/firstandthird/runkit-livereload#readme",
+  "homepage": "https://github.com/firstandthird/taskkit-livereload#readme",
   "dependencies": {
     "async": "^2.1.2",
-    "runkit-task": "0.0.10",
     "lodash.debounce": "^4.0.8",
+    "taskkit-task": "0.0.11",
     "tiny-lr": "1.0.3"
   },
   "devDependencies": {

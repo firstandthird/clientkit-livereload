@@ -1,9 +1,9 @@
 'use strict';
-const RunKitTask = require('runkit-task');
+const TaskKitTask = require('taskkit-task');
 const tinylr = require('tiny-lr');
 const debounce = require('lodash.debounce');
 
-class LiveReloadTask extends RunKitTask {
+class LiveReloadTask extends TaskKitTask {
   execute(done) {
     if (!this.server) {
       const port = this.options.port || 35729;
