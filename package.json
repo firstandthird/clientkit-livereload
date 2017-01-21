@@ -1,6 +1,6 @@
 {
   "name": "taskkit-livereload",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "taskkit task to trigger livereload",
   "main": "index.js",
   "scripts": {
